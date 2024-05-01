@@ -1,0 +1,211 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Sedan:ital@0;1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Sedan", serif;
+}
+
+body{
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    color: azure;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(155,66,120);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 600;
+}
+
+header .logo:hover{
+    color: rgb(248, 11, 42);
+    background: rgb(193, 187, 9);
+    transition: 1s;
+}
+
+header .navbar{
+    position: relative;
+    display: flex;
+}
+header .navbar li{
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+header .navbar li a{
+   text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.5s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+header .navbar li a:hover{
+    border-bottom: 5px solid rgb(137, 66, 188);
+    padding: 3px;
+}
+/*contenido de la web*/
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+
+}
+.contenido .titulobox{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+.contenido .titulobox h2{
+    font-size: 3.8em;
+    text-transform: uppercase;
+    color: white;
+}
+.contenido .titulobox h2 span{
+    background: rgb(137, 66, 188);
+    color: white;
+    padding: 0 10px;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.contenido.titulobox p{
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: white;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.contenido .frase{
+    font-size: 1.5em;
+    line-height: 1;
+    color: white;
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.contenido .titulobox a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(137, 66, 188);
+    background: #fff;
+    padding: 10px 20px;
+    margin-left:  30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.contenido .titulobox a:hover{
+    color: #fff;
+    background: rgb(7   , 252, 244);
+    transition: 0.5s;
+}
+.contenido .imgbox{
+    width: 700px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -50px;
+    z-index: -5;
+}
+.contenido .imgbox img{
+    height: 90vh;
+}
+.contenido .imgbox img:hover{
+    height: 80vh;
+}
+/*Copyright*/
+.copyright{
+    position: absolute;
+    bottom: 0px;
+    left: 600px;
+    margin-bottom: 10px;
+    padding: 50px 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright p{
+    color: #fff;
+    text-align: center;
+    margin-left: 100px;
+}
+/*redes sociales*/
+.redesSociales{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+.redesSociales li{
+    padding: 5px;
+}
+.redesSociales li a{
+    color: white;
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+.redesSociales li:hover a{
+    color: rgb(7   , 252, 244);
+
+}
+/********************************************************/
+.subt{
+    color: rgb(255, 251, 0);
+    font-size: 2.8em;
+    font-family: "Jersey 25", sans-serif;
+    text-align: center;
+}
+
+.contenido-quiensoy p{
+    font-size: 35px;
+  color: white;
+  font-weight: 300;
+  font-family: "Jersey 25", sans-serif;
+  justify-content:center;
+  text-align: center;
+}
